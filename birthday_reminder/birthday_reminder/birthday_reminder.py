@@ -62,15 +62,15 @@ def get_birthdays_per_week(users):
     fri_string = " ".join(fri)
 #-------------Вивід по дням тижня іменинників наступного тижня---------------    
     if len(mon) > 0:
-        print(f"Monday birthdays: {mon_string}")
+        print(f"Monday: {mon_string}")
     if len(tue) > 0:
-        print(f"Tuesday birthdays: {tue_string}")
+        print(f"Tuesday: {tue_string}")
     if len(wed) > 0:
-        print(f"Wednesday birthdays: {wed_string}")
+        print(f"Wednesday: {wed_string}")
     if len(thur) > 0:
-        print(f"Thursday birthdays: {thur_string}")
+        print(f"Thursday: {thur_string}")
     if len(fri) > 0:
-        print(f"Friday birthdays: {fri_string}")
+        print(f"Friday: {fri_string}")
 #------------Фінальний аккорд---------------------
     return print("Don`t forget to say HAPPY BIRTHDAY to them!!!")
 
