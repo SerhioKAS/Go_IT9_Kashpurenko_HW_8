@@ -55,11 +55,11 @@ def get_birthdays_per_week(users):
         else:
             continue
 
-    mon_string = " ".join(mon)
-    tue_string = " ".join(tue)
-    wed_string = " ".join(wed)
-    thur_string = " ".join(thur)
-    fri_string = " ".join(fri)
+    mon_string = ", ".join(mon)
+    tue_string = ", ".join(tue)
+    wed_string = ", ".join(wed)
+    thur_string = ", ".join(thur)
+    fri_string = ", ".join(fri)
 #-------------Вивід по дням тижня іменинників наступного тижня---------------    
     if len(mon) > 0:
         print(f"Monday: {mon_string}")
