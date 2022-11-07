@@ -1,5 +1,5 @@
 from datetime import datetime
-
+#-----------Список знайомих із днями народження--------------------
 users_birthday = [
     {"name": "Maks Kuznetsov", "birthday": datetime(year=1986, month=11, day=5)},
     {"name": "Ihor Bikovskii", "birthday": datetime(year=1978, month=11, day=6)},
